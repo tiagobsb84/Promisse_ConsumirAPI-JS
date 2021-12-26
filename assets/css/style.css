@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Concert One', cursive;
+    background-color: blanchedalmond;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.menu_titulo {
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-bottom: 1rem;
+}
+
+.menu_imagem {
+    margin-bottom: 1rem;
+}
+
+.imagem {
+    width: 58rem;
+    height: 44rem;
+    object-fit: fill;
+    border-radius: 50px;
+}
+
+.menu_botao {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background: darkmagenta;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu_botao:hover {
+    background-color: orange;
+    cursor: pointer;
+}
